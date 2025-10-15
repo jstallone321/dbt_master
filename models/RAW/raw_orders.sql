@@ -7,4 +7,4 @@
 
 
 
-select * from RAW.GLOBAL_MART.ORDERS
+select * from {{ source('globalmart', 'orders') }}
